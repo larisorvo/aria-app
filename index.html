@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aria</title>
-<style>body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:640px;margin:40px auto;padding:0 16px;color:#222}a{color:#1a5fb4}</style></head>
+<style>body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:640px;margin:40px auto;padding:0 16px;color:#222}a{color:#1a5fb4}code{word-break:break-all}</style></head>
 <body>
 <h1>Aria</h1>
-<p>Aria is a private assistant run by one person for their own use. With this app it uploads videos to that person's own YouTube channels, and only after the channel owner has approved each video, its title and its description.</p>
-<p>The app asks Google for one permission only: uploading videos to the channel ("Manage your YouTube videos" / <code>youtube.upload</code>). It does not read, edit or delete other videos, comments or account data.</p>
+<p>Aria is a private assistant run by one person for their own use. It publishes videos and posts to that person's own social media accounts, only after the account owner has approved each post, and reads the numbers of those posts so the owner can see how they did.</p>
+<h2>YouTube (Google)</h2>
+<p>Permissions: uploading videos to the owner's channel (<code>youtube.upload</code>), and read-only access to that channel's videos and analytics (<code>youtube.readonly</code>, <code>yt-analytics.readonly</code>). The app never edits or deletes videos, comments or settings.</p>
+<h2>TikTok</h2>
+<p>Permissions: the owner's basic profile (<code>user.info.basic</code>) and uploading a video to the owner's TikTok inbox as a draft (<code>video.upload</code>), which the owner then finishes and publishes in the TikTok app.</p>
 <p>The app is not offered to other users.</p>
-<p><a href="privacy.html">Privacy policy</a></p>
+<p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a></p>
 </body></html>
